@@ -69,7 +69,7 @@ The main objectives of this project were:
 
 
 
-!\[Enterprise Network Topology](topology/enterprise-topology.png)
+!\[Enterprise-Network-Lab-EVE-NG](topology/enterprise-topology.png)
 
 
 
