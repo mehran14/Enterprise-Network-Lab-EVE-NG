@@ -47,6 +47,7 @@ The main objectives of this project were:
 
 * Design and implement a multi-site enterprise topology
 * Configure OSPF inside the HQ and Branch sites
+* Configured HSRP with IP SLA object tracking for automatic failover
 * Advertise organizational loopback interfaces through OSPF
 * Secure OSPF adjacencies using authentication
 * Configure iBGP between HQ edge routers
