@@ -2,7 +2,7 @@
 
 
 
-A multi-site enterprise network lab implemented in EVE-NG to demonstrate enterprise routing, BGP, OSPF, GRE over IPsec, NAT, AAA, SSH security, and network troubleshooting.
+A multi-site enterprise network lab implemented in EVE-NG to demonstrate enterprise routing, STP, HSRP, BGP, OSPF, GRE over IPsec, NAT, AAA, SSH security, and network troubleshooting.
 
 
 
