@@ -83,19 +83,13 @@ The topology includes the following components:
 
 
 
-\- HQ-EDGE1
-
-\- HQ-EDGE2
-
-\- HQ-CORE1
-
-\- HQ-CORE2
-
-\- AAA-SRV-HQ
-
-\- WEB-SRV-HQ
-
-\- MGMT-PC-HQ
+* HQ-EDGE1
+* HQ-EDGE2
+* HQ-CORE1
+* HQ-CORE2
+* AAA-SRV-HQ
+* WEB-SRV-HQ
+* MGMT-PC-HQ
 
 
 
@@ -103,13 +97,10 @@ The topology includes the following components:
 
 
 
-\- BR-EDGE1
-
-\- BR-CORE1
-
-\- BR-CORE2
-
-\- MGMT-PC-BR
+* BR-EDGE1
+* BR-CORE1
+* BR-CORE2
+* MGMT-PC-BR
 
 
 
@@ -117,17 +108,12 @@ The topology includes the following components:
 
 
 
-\- ISP-R1
-
-\- ISP-R2
-
-\- ISP-R3
-
-\- ISP-R4
-
-\- ISP-R5
-
-\- INET-DNS – 8.8.8.8 simulation
+* ISP-R1
+* ISP-R2
+* ISP-R3
+* ISP-R4
+* ISP-R5
+* INET-DNS – 8.8.8.8 simulation
 
 
 
@@ -153,19 +139,13 @@ The topology includes the following components:
 
 
 
-\- ISP 1 operates under AS 100.
-
-\- ISP 2 operates under AS 200.
-
-\- ISP-R4 provides an internal core/transit role inside ISP 2.
-
-\- iBGP is used between routers inside the same autonomous system.
-
-\- eBGP is used between different autonomous systems.
-
-\- Enterprise edge routers establish eBGP sessions with upstream ISP routers.
-
-\- HQ and Branch exchange enterprise routes over the GRE over IPsec tunnel.
+* ISP 1 operates under AS 100.
+* ISP 2 operates under AS 200.
+* ISP-R4 provides an internal core/transit role inside ISP 2.
+* iBGP is used between routers inside the same autonomous system.
+* eBGP is used between different autonomous systems.
+* Enterprise edge routers establish eBGP sessions with upstream ISP routers.
+* HQ and Branch exchange enterprise routes over the GRE over IPsec tunnel.
 
 
 
@@ -189,13 +169,10 @@ OSPF is enabled between:
 
 
 
-\- HQ-EDGE1
-
-\- HQ-EDGE2
-
-\- HQ-CORE1
-
-\- HQ-CORE2
+* HQ-EDGE1
+* HQ-EDGE2
+* HQ-CORE1
+* HQ-CORE2
 
 
 
@@ -207,11 +184,9 @@ OSPF is enabled between:
 
 
 
-\- BR-EDGE1
-
-\- BR-CORE1
-
-\- BR-CORE2
+* BR-EDGE1
+* BR-CORE1
+* BR-CORE2
 
 
 
@@ -231,13 +206,10 @@ Security objectives:
 
 
 
-\- Prevent unauthorized OSPF neighbors
-
-\- Prevent false route injection
-
-\- Authenticate routing protocol packets
-
-\- Verify neighbor adjacency using secure credentials
+* Prevent unauthorized OSPF neighbors
+* Prevent false route injection
+* Authenticate routing protocol packets
+* Verify neighbor adjacency using secure credentials
 
 
 
@@ -249,15 +221,11 @@ The following BGP relationships are implemented:
 
 
 
-\- iBGP between HQ-EDGE1 and HQ-EDGE2
-
-\- iBGP within ISP 1
-
-\- iBGP within ISP 2
-
-\- eBGP between enterprise edge routers and ISP routers
-
-\- eBGP between HQ and Branch over the GRE tunnel
+* iBGP between HQ-EDGE1 and HQ-EDGE2
+* iBGP within ISP 1
+* iBGP within ISP 2
+* eBGP between enterprise edge routers and ISP routers
+* eBGP between HQ and Branch over the GRE tunnel
 
 
 
