@@ -31,7 +31,9 @@ This lab simulates an enterprise network consisting of:
 * Secure inter-site connectivity using GRE over IPsec
 * Internet access using PAT
 * Public access to the internal web server using Static NAT
-* Centralized device administration using TACACS+
+* Centralized device administration using RADIUS/NPS
+* Configured HSRP with IP SLA object tracking for automatic failover
+* Implemented Rapid PVST+, PortFast, BPDU Guard and Root Guard
 * Secure management using SSHv2
 * Routing and management security controls
 
@@ -60,7 +62,7 @@ The main objectives of this project were:
 * Configure Static NAT for the HQ web server
 * Prevent VPN traffic from being translated
 * Secure router management with SSHv2
-* Implement TACACS+ authentication and authorization
+* Implement RADIUS/NPS authentication and authorization
 * Configure local authentication as AAA fallback
 * Apply management ACLs and control-plane protection
 * Verify connectivity, routing, security, and failover behavior
